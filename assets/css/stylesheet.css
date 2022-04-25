@@ -38,3 +38,21 @@ header{
     max-height: 150px;
     padding: 10px;
 }
+
+/* navigation */
+
+#menu{
+    font-size: 130%;
+    line-height: 150px;
+}
+
+#menu li{
+    float: right;
+    margin-right: 20px;
+    list-style-type: none;
+}
+ 
+#menu a{
+    color:white;
+    text-decoration: none;
+}
