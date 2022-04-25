@@ -56,3 +56,7 @@ header{
     color:white;
     text-decoration: none;
 }
+
+#menu a:hover{
+    border-bottom: dotted white 5px;
+}
