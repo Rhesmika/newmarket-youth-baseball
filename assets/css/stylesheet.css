@@ -11,11 +11,11 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-h1, h2{
+h1, {
     font-family: 'Pacifico', cursive;
 }
 
-h3{
+h2, h3{
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
 }
@@ -94,9 +94,12 @@ header{
 
     position: absolute;
     font-size: 200%;
-    font-family: 'Montserrat', sans-serif;
     text-align: right;
     color: white;
+}
+#hero-cover-text h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 180%;
 }
 
 
