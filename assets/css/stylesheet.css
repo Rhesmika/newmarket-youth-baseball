@@ -161,7 +161,33 @@ header{
     padding:50px;
 }
 
+/* Map */
 
+#section-map .section-title{
+    background-color: rgba(242, 174, 46, 1);    
+}
+
+#section-map{
+    width: 100%;
+    height: 500px;
+}
+
+
+#map {
+    width: 100%;
+    height: auto;
+}
+iframe {
+    width: 100%;
+}
+
+.section-sub-heading{
+    text-align: center;
+    background-color: rgba(242, 120, 48, 1);
+    color: inherit;
+    font-size: 120%;
+    line-height: 200%;
+}
 
 #section-map{}
 #section-baseball-rules{}
