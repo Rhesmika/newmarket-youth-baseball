@@ -104,33 +104,45 @@ header{
 .section-about-the-club{
     width: 100%;
     height: 500px;
+    background-color: aqua;
+    padding-top: 50px;
 }
 
 .about-outer-left{
     width: 50%;
     height: 500px;
     display: inline-block;
+    background-color: blue;
     float: left;
+
 }
 .about-outer-right{
     width: 50%;
     height: 500px;
     display: inline-block;
+    background-color: red;
     float: right;
 }
 
 #team-info{
-    margin: 50px;
+    padding:50px;
 }
 
 #team-info-image{
     background: url(/assets/images/baseball-players.jpg) no-repeat center center;
-    background-size: 100%;
-    height: 500px;
-    width:50%;
-
+    height:500px;
+    background-size: cover;
 }
 
+#kit-image{
+    background: url(/assets/images/baseball-ball-glove.jpg) no-repeat center center;
+    height:500px;
+    background-size: cover;
+}
+
+#kit-fee-info{
+    padding:50px;
+}
 
 
 
