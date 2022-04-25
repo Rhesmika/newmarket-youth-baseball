@@ -17,7 +17,7 @@ h1, h2{
 
 h3{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 800;
 }
 
 /* header */
@@ -99,15 +99,41 @@ header{
     color: white;
 }
 
-#hero-cover-text h2, h3{
+
+/* About the club*/
+.section-about-the-club{
+    width: 100%;
+    height: 500px;
+}
+
+.about-outer-left{
+    width: 50%;
+    height: 500px;
+    display: inline-block;
+    float: left;
+}
+.about-outer-right{
+    width: 50%;
+    height: 500px;
+    display: inline-block;
+    float: right;
+}
+
+#team-info{
+    margin: 50px;
+}
+
+#team-info-image{
+    background: url(/assets/images/baseball-players.jpg) no-repeat center center;
+    background-size: 100%;
+    height: 500px;
+    width:50%;
 
 }
 
 
 
 
-
-#section-about-the-club{}
 #section-map{}
 #section-baseball-rules{}
 #section-join-the-team{}
