@@ -81,9 +81,27 @@ header{
 }
 
 #hero-cover-text{
+    width: 700px;
+    height: 200px;
 
+    padding-top: 40px;
+    padding-right: 40px;
+
+    background-color: rgba(242, 120, 48, .7);
+
+    bottom: 50px;
+    right: 50px;
+
+    position: absolute;
+    font-size: 200%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+    color: white;
 }
 
+#hero-cover-text h2, h3{
+
+}
 
 
 
