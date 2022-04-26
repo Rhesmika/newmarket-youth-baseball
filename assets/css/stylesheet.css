@@ -106,20 +106,20 @@ header{
 /* About the club*/
 
 .section-title{
-    line-height: 200px;
     text-align: center;
     font-size: 60px;
     text-transform: uppercase;
     color: white;
+    background-color: rgba(4, 138, 191, 1);
+    height: 150px;
+    padding-top: 70px;
 }
 .about-the-club{
     width: 100%;
     height: 500px;
     background-color: white;
 }
-.about-the-club .section-title{
-    background-color: rgba(4, 138, 191, 1);
-}
+
 
 .about-outer-left{
     width: 50%;
@@ -163,19 +163,16 @@ header{
 
 /* Map */
 
-#section-map .section-title{
-    background-color: rgba(242, 174, 46, 1);    
-}
-
 #section-map{
     width: 100%;
-    height: 500px;
+    height: 200px;
+    position: relative;
 }
 
 
 #map {
     width: 100%;
-    height: auto;
+    height: 500px;
 }
 iframe {
     width: 100%;
@@ -189,7 +186,16 @@ iframe {
     line-height: 200%;
 }
 
-#section-map{}
+
+/* Video */
+#video {
+    width: 100%;
+    height: 500px;
+}
+#section-baseball-rules .section-title{
+    background-color: rgba(242, 174, 46, 1);    
+}
+
 #section-baseball-rules{}
 #section-join-the-team{}
 #section-connect{}
