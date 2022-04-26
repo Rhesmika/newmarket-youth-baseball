@@ -165,7 +165,7 @@ header{
 
 #section-map{
     width: 100%;
-    height: 200px;
+    height: 725px;
     position: relative;
 }
 
@@ -180,15 +180,21 @@ iframe {
 
 .section-sub-heading{
     text-align: center;
-    background-color: rgba(242, 120, 48, 1);
+    background-color: inherit;
     color: inherit;
     font-size: 120%;
     line-height: 200%;
+    height: 50px;
+    padding-top: 10px;
 }
 
 
 /* Video */
-#video {
+#video-outer {
+    width: 100%;
+    height: 500px;
+}
+#video{
     width: 100%;
     height: 500px;
 }
