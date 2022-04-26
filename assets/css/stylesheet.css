@@ -25,6 +25,7 @@ header{
     background-color: rgba(242, 174, 46, 1);
     width: 100%;
     height: 150px;
+    position: fixed;
 }
 
 #logo-outer{
@@ -69,7 +70,6 @@ header{
 #hero-outer{
     width: 100%;
     height: 800px;
-    position: relative;
     overflow: hidden;
 }
 
@@ -92,7 +92,7 @@ header{
     bottom: 50px;
     right: 50px;
 
-    position: absolute;
+    position:absolute;
     font-size: 200%;
     text-align: right;
     color: white;
@@ -166,7 +166,7 @@ header{
 #section-map{
     width: 100%;
     height: 725px;
-    position: relative;
+
 }
 
 
@@ -198,11 +198,12 @@ iframe {
     width: 100%;
     height: 500px;
 }
-#section-baseball-rules .section-title{
-    background-color: rgba(242, 174, 46, 1);    
+
+
+/* join team form */
+#section-join-the-team{
+
 }
 
-#section-baseball-rules{}
-#section-join-the-team{}
 #section-connect{}
 
