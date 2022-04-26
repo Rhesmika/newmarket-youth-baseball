@@ -192,17 +192,41 @@ iframe {
 /* Video */
 #video-outer {
     width: 100%;
-    height: 500px;
+    height: 700px;
 }
 #video{
     width: 100%;
-    height: 500px;
+    height: 700px;
 }
 
 
 /* join team form */
-#section-join-the-team{
+#section-join-the-team .section-title{
+    background-color: rgba(242, 120, 48, .8)
 
+}
+
+#form-section-outer{
+    width: 100%;
+    height: 700px;
+    background: url(/assets/images/baseball-field.jpg);
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+}
+
+.form-outer{
+    background-color:rgba(0,0,0,.8);
+    width: 85%;
+    height: 500px;
+    top:100px;
+    left: 100px;
+    position: relative;
+}
+
+#join-form{
+    color: white;
 }
 
 #section-connect{}
