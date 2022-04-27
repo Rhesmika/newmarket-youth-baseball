@@ -79,7 +79,7 @@ header{
 }
 
 #hero-image{
-    background: url(/assets/images/baseball-hero-pitching.jpg) no-repeat center center;
+    background: url(../assets/images/baseball-hero-pitching.jpg) no-repeat center center;
     width: 100%;
     height:800px;
     background-size: 100%;
@@ -150,13 +150,13 @@ header{
 }
 
 #team-info-image{
-    background: url(/assets/images/baseball-players.jpg) no-repeat center center;
+    background: url(../assets/images/baseball-players.jpg) no-repeat center center;
     height:500px;
     background-size: cover;
 }
 
 #kit-image{
-    background: url(/assets/images/baseball-ball-glove.jpg) no-repeat center center;
+    background: url(../assets/images/baseball-ball-glove.jpg) no-repeat center center;
     height:500px;
     background-size: cover;
 }
@@ -220,7 +220,7 @@ iframe {
 #form-section-outer{
     width: 100%;
     height: 700px;
-    background: url(/assets/images/baseball-field.jpg);
+    background: url(../assets/images/baseball-field.jpg);
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
     background-size: cover;
     overflow: hidden;
