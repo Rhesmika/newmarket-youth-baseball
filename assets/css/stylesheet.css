@@ -209,7 +209,6 @@ iframe {
     position: relative;
 }
 
-
 /* join team form */
 #section-join-the-team .section-title{
     background-color: rgba(242, 120, 48, .8)
@@ -239,5 +238,30 @@ iframe {
     color: white;
 }
 
-#section-connect{}
 
+/* footer */
+#section-connect{}
+footer{
+    max-height: 150px;
+}
+
+.social-networks{
+    text-align: center;
+}
+
+.social-networks > li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 30px;
+    margin: 1%;
+    padding: 5%;
+    color: rgba(242, 174, 46, 1);
+}
+
+.reserves{
+    color: rgba(242, 174, 46, 1);
+    text-align: center;
+    padding-bottom: 20px;
+}
