@@ -269,7 +269,24 @@ footer {
 
 /* media queries */
 
+
 /* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #hero-outer{
+        height: 600px;
+    }
+    
+    #hero-image{
+        height:600px;
+    }
+
+    #hero-cover-text{
+        width: 500px;
+        height: 150px;
+        bottom: 220px;
+        right: 20px;
+        font-size: 130%;
+    }
 
 
 /* For medium  screens size from 950px wide and down */
@@ -281,4 +298,23 @@ footer {
     #hero-image{
         height:600px;
     }
+
+    #hero-cover-text{
+        width: 700px;
+        height: 200px;
+    
+        padding-top: 40px;
+        padding-right: 40px;
+    
+        background-color: rgba(242, 120, 48, .7);
+    
+        bottom: 200px;
+        right: 50px;
+    
+        position:absolute;
+        font-size: 200%;
+        text-align: right;
+        color: white;
+    }
+
 }
