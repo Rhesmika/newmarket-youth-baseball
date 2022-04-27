@@ -312,7 +312,7 @@ footer {
         top:75px;
         left: 180px;
     }
-    
+}
 
 /* For medium  screens size from 950px wide and down */
 @media screen and (max-width: 950px) {
@@ -445,14 +445,11 @@ footer {
     }
     #form-section-outer{
         height: 700px;
-
     }
-    
     .form-outer{
         width: 85%;
         height: 500px;
         top:80px;
         left: 7.5%;
-
     }
 }
