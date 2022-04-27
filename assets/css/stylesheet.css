@@ -303,32 +303,46 @@ footer {
     #kit-fee-info{
         padding:20px;
     }
-
+    #section-map{
+        height: 628px;
+    }
+    .form-outer{
+        width: 60%;
+        height: 500px;
+        top:75px;
+        left: 180px;
+    }
+    
 
 /* For medium  screens size from 950px wide and down */
 @media screen and (max-width: 950px) {
+
+    header{
+        height: 90px;
+    }
+    #menu{
+        clear: left;
+        float: left;
+        padding-left: 10px;
+        line-height: 20px;
+    }
+
     #hero-outer{
-        height: 600px;
+        height: 500px;
     }
     
     #hero-image{
-        height:600px;
+        height:500px;
     }
 
     #hero-cover-text{
-        width: 700px;
-        height: 200px;
-    
-        padding-top: 40px;
-        padding-right: 40px;
-    
-        background-color: rgba(242, 120, 48, .7);
-    
-        bottom: 200px;
+        width: 600px;
+        height: 100px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        bottom: 350px;
         right: 50px;
-    
-        position:absolute;
-        font-size: 200%;
+        font-size: 140%;
         text-align: right;
         color: white;
     }
