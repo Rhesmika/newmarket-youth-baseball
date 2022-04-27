@@ -346,5 +346,22 @@ footer {
         text-align: right;
         color: white;
     }
-
+    .about-the-club{
+        height: 800px;
+    }
+    .about-outer-left{
+        width: 100%;
+        height:400px;
+    }
+    .about-outer-right{
+        width: 100%;
+        height: 400px;
+    }
+    #team-info-image{
+        height:400px;
+    }  
+    #kit-image{
+        height:400px;
+    }
+    
 }
