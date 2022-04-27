@@ -11,11 +11,11 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-h1, {
+h1 {
     font-family: 'Pacifico', cursive;
 }
 
-h2, {
+h2 {
 font-family: 'Pacifico', cursive;
 }
 
@@ -130,7 +130,6 @@ header{
 .about-outer-left{
     width: 50%;
     height: 500px;
-    display: inline-block;
     background-color:white;
     color: rgba(4, 138, 191, 1);
     float: left;
@@ -140,7 +139,6 @@ header{
 .about-outer-right{
     width: 50%;
     height: 500px;
-    display: inline-block;
     background-color:white;
     color: rgba(4, 138, 191, 1);
     float: right;
@@ -171,7 +169,7 @@ header{
 
 #section-map{
     width: 100%;
-    height: 725px;
+    height: 608px;
 
 }
 
@@ -226,22 +224,23 @@ iframe {
 }
 
 .form-outer{
-    background-color:rgba(0,0,0,.8);
+    background-color:rgba(255, 255, 255, 0.8);
     width: 85%;
     height: 500px;
     top:100px;
     left: 100px;
     position: relative;
+    text-align: center;
+    padding-top: 50px;
 }
 
 #join-form{
-    color: white;
+    color: rgba(4, 138, 191, 1);
 }
 
-
 /* footer */
-#section-connect{}
-footer{
+
+footer {
     max-height: 150px;
 }
 
@@ -249,7 +248,7 @@ footer{
     text-align: center;
 }
 
-.social-networks > li{
+.social-networks  li{
     display: inline;
 }
 
@@ -264,4 +263,22 @@ footer{
     color: rgba(242, 174, 46, 1);
     text-align: center;
     padding-bottom: 20px;
+}
+
+
+
+/* media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+
+
+/* For medium  screens size from 950px wide and down */
+@media screen and (max-width: 950px) {
+    #hero-outer{
+        height: 600px;
+    }
+    
+    #hero-image{
+        height:600px;
+    }
 }
