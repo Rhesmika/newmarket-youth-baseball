@@ -29,7 +29,7 @@ I added subheadings to all the sections to enhance user readability of the websi
 ### Colours
 Adobe color was used to find a colour pallet that would work for the young sporty feel for the team. The sharp colours were chosed to represent the youth players and the sport focus. 
 These colours (with the additional of white) were used throughout the website to create a consistance and creative look.  
-
+![color-pallet](/assets/images/readme/nyb-colors.png)
 ***
 ## Features
 The website includes a variety of features both interactive and stagnent. 
