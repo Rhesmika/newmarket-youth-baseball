@@ -6,24 +6,19 @@
     padding: 0;
     border: none;
 }
-
 body{
     font-family: 'Montserrat', sans-serif;
 }
-
 h1 {
     font-family: 'Pacifico', cursive;
 }
-
 h2 {
 font-family: 'Pacifico', cursive;
 }
-
 h3{
     font-family: 'Pacifico', cursive;
     font-weight: 800;
 }
-
 /* header */
 header{
     background-color: rgba(242, 174, 46, 1);
@@ -32,71 +27,54 @@ header{
     position: fixed;
     z-index: 1;
 }
-
 #logo-outer{
     width: 400px;
     height: 60px;
     float:left;
 }
-
 #logo-image{
     max-width: 400px;
     max-height: 50px;
     padding: 5px;
 }
-
 /* navigation */
-
 #menu{
     font-size: 15px;
     line-height: 50px;
 }
-
 #menu li{
     float: right;
     margin-right: 20px;
     list-style-type: none;
 }
- 
 #menu a{
     color:white;
     text-decoration: none;
 }
-
 #menu a:hover{
     border-bottom: dotted white 5px;
 }
-
-
 /* page content */
-
 /* hero image */
-
 #hero-outer{
     width: 100%;
     height: 800px;
     overflow: hidden;
 }
-
 #hero-image{
     background: url('../../assets/images/baseball-hero-pitching.jpg') no-repeat center center;
     width: 100%;
     height:800px;
     background-size: 100%;
 }
-
 #hero-cover-text{
     width: 700px;
     height: 200px;
-
     padding-top: 40px;
     padding-right: 40px;
-
     background-color: rgba(242, 120, 48, .7);
-
     bottom: 200px;
     right: 50px;
-
     position:absolute;
     font-size: 200%;
     text-align: right;
@@ -106,10 +84,7 @@ header{
     font-family: 'Pacifico', cursive;
     font-size: 180%;
 }
-
-
 /* About the club*/
-
 .section-title{
     text-align: center;
     font-size: 60px;
@@ -119,14 +94,11 @@ header{
     font-family: 'Pacifico', cursive;
     position: relative;
 }
-
 .about-the-club{
     width: 100%;
     height: 500px;
     background-color: white;
 }
-
-
 .about-outer-left{
     width: 50%;
     height: 500px;
@@ -134,7 +106,6 @@ header{
     color: rgba(4, 138, 191, 1);
     float: left;
     overflow: hidden;
-
 }
 .about-outer-right{
     width: 50%;
@@ -144,38 +115,28 @@ header{
     float: right;
     overflow: hidden;
 }
-
 #team-info{
     padding:50px;
 }
-
 #team-info-image{
     height:500px;
     object-fit: cover;
 }
-
 #kit-image{
     height:500px;
     object-fit: cover;
 }
-
 #kit-fee-info{
     padding:50px;
 }
-
 #kit-fee-info ul {
     padding-left: 20px;
 }
-
 /* Map */
-
 #section-map{
     width: 100%;
     height: 608px;
-
 }
-
-
 #map {
     width: 100%;
     height: 500px;
@@ -183,7 +144,6 @@ header{
 iframe {
     width: 100%;
 }
-
 .section-sub-heading{
     text-align: center;
     background-color: inherit;
@@ -193,8 +153,6 @@ iframe {
     height: 50px;
     padding-top: 10px;
 }
-
-
 /* Video */
 #video-outer {
     width: 100%;
@@ -208,13 +166,10 @@ iframe {
     top:10px;
     position: relative;
 }
-
 /* join team form */
 #section-join-the-team .section-title{
     background-color: rgba(242, 120, 48, .8)
-
 }
-
 #form-section-outer{
     width: 100%;
     height: 700px;
@@ -224,7 +179,6 @@ iframe {
     overflow: hidden;
     text-align: center;
 }
-
 .form-outer{
     background-color:rgba(255, 255, 255, 0.8);
     width: 85%;
@@ -235,53 +189,39 @@ iframe {
     text-align: center;
     padding-top: 50px;
 }
-
 #join-form{
     color: rgba(4, 138, 191, 1);
 }
-
 /* footer */
-
 footer {
     height: 60px;
 }
-
 .social-networks{
     text-align: center;
 }
-
 .social-networks  li{
     display: inline;
 }
-
 .social-networks i{
     font-size: 20px;
     margin: 1%;
     padding-right: 5%;
     color: rgba(242, 174, 46, 1);
 }
-
 .reserves{
     color: rgba(242, 174, 46, 1);
     text-align: center;
     padding-bottom: 20px;
 }
-
-
-
 /* media queries */
-
-
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #hero-outer{
         height: 600px;
     }
-    
     #hero-image{
         height:600px;
     }
-
     #hero-cover-text{
         width: 500px;
         height: 150px;
@@ -289,7 +229,6 @@ footer {
         right: 20px;
         font-size: 130%;
     }
-
     .section-title{
         font-size: 40px;
         padding-top: 20px;
@@ -311,10 +250,8 @@ footer {
         left: 180px;
     }
 }
-
 /* For medium  screens size from 950px wide and down */
 @media screen and (max-width: 950px) {
-
     header{
         height: 90px;
     }
@@ -324,15 +261,12 @@ footer {
         padding-left: 10px;
         line-height: 20px;
     }
-
     #hero-outer{
         height: 500px;
     }
-    
     #hero-image{
         height:500px;
     }
-
     #hero-cover-text{
         width: 600px;
         height: 100px;
@@ -377,7 +311,6 @@ footer {
         margin-bottom: 20px;
 }
 /* For small  screens size from 800px wide and down */
-
 @media screen and (max-width: 800px) {
     #menu{
         font-size: 10px;
