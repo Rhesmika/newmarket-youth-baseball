@@ -12,22 +12,22 @@
 
 <body>
     <header>
-        <div id="logo-outer">
-            <a href="index.html"><img id="logo-image" src="assets/images/logo-newmarket-youth-baseball-white.png" alt="newmarket-youth-baseball-logo"></a>
+        <div id="logo-outer" >
+            <a href="index.html"><img id="logo-image" src="assets/images/logo-newmarket-youth-baseball-white.png" alt="newmarket-youth-baseball-logo" aria-label="Newmarket Youth Baseball page logo"></a>
         </div>
-        <nav id="menu">
+        <nav id="menu" aria-label="page-menu">
             <ul>
-                <li><a href="#section-connect">Connect</a></li>
-                <li><a href="#section-join-the-team">Join the team</a></li>
-                <li><a href="#section-map">Map</a></li>
-                <li><a href="#section-baseball-rules">Baseball Rules</a></li>
-                <li><a href="#section-about-the-club">About the Club</a></li>
+                <li><a href="#section-connect" aria-label="navigate to connect section">Connect</a></li>
+                <li><a href="#section-join-the-team"aria-label="navigate to join the team section">Join the team</a></li>
+                <li><a href="#section-map" aria-label="navigate to map section">Map</a></li>
+                <li><a href="#section-baseball-rules"aria-label="navigate to baseball rules section">Baseball Rules</a></li>
+                <li><a href="#section-about-the-club" aria-label="navigate to about the club section">About the Club</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="hero-outer">
-        <div id="hero-image"></div>
+        <div id="hero-image"aria-label="image of baseball game"></div>
         <div id="hero-cover-text">
             <h1>Baseball for all skill levels</h1>
             <h3>Ages 12-18</h3>
@@ -37,7 +37,7 @@
     <h2 class="section-title" id="section-about-the-club">About The Club</h2>
      <section class="about-the-club">
             <div class="about-outer-left">
-                <div id="team-info">
+                <div id="team-info" aria-label="information on the club">
                     <br>
                     <h3>Practice</h3>
                     <p>Improve and practice every Wedenesday
@@ -54,20 +54,20 @@
                     <br>
                     <br>
                     <h3>Where do you play</h3>
-                    <p><a href="#section-map">Newmarket Recreation Ground</a></p>
+                    <p><a href="#section-map" aria-label="navigation to map">Newmarket Recreation Ground</a></p>
                     <br>
                     <br>
                     <h3>Who can play?</h3>
                     <p>No matter what your skill level is, you're welcome to join our team. You must be ages 12-18 to be on the youth team.</p>
                 </div>
             </div>
-            <img src="assets/images/baseball-players.jpg" class="about-outer-right" id="team-info-image" alt="baseball players playing in batters box">
+            <img src="assets/images/baseball-players.jpg" class="about-outer-right" id="team-info-image" alt="baseball-players-batters-box" aria-label="image of baseball players playing in batters box">
     </section>
         
     <section class="about-the-club">
-            <img src="assets/images/baseball-ball-glove_reduced.jpeg" class="about-outer-left" id="kit-image" alt="baseball glove and ball">
+            <img src="assets/images/baseball-ball-glove_reduced.jpeg" class="about-outer-left" id="kit-image" alt="baseball-glove-ball" aria-label="image of baseball glove and ball">
             <div class="about-outer-right">
-                <div id="kit-fee-info">
+                <div id="kit-fee-info" aria-label="information on kit and club fees">
                     <br>
                     <h3>What do I wear?</h3>
                     <p>Once you've joined the team, you'll need to wear the folllowing to all practices and games</p>
@@ -84,16 +84,16 @@
                     <br>
                     <br>
                     <h3>Fees</h3>
-                    <p>Once you've joined the team, you will need to <a href="https://www.paypal.com/uk/home" target="_blank">make payment for the league season of £120.00</a></p>
+                    <p>Once you've joined the team, you will need to <a href="https://www.paypal.com/uk/home" target="_blank" aria-label="link to paypal">make payment for the league season of £120.00</a></p>
                 </div>
             </div>  
     </section>
 
-    <section id="section-baseball-rules">
+    <section id="section-baseball-rules" aria-label="baseball rules">
         <h2 class="section-title">Baseball Rules</h2>
         <h3 class="section-sub-heading">Need a refresher on the game rules?</h3>
         <div id=video-outer>
-            <iframe id="video" src="https://www.youtube.com/embed/57mc7Df7Arw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id="video" src="https://www.youtube.com/embed/57mc7Df7Arw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aria-label="youtube video of baseball tules"></iframe>
         </div>
     </section>
 
@@ -110,37 +110,37 @@
             <section id="form-section-outer">
                 <h3 class="section-sub-heading">sign up now, we'd love to have you join in!</h3>
                 <div class="form-outer">
-                    <form id="join-form" method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
-                        <label for="first-name">First Name:</label><br>
-                        <input type="text" id="first-name" name="first-name" required><br>
-                        <label for="last-name">Last Name:</label><br>
-                        <input type="text" id="last-name" name="last-name" required><br>
-                        <label for="email">Email:</label><br>
-                        <input type="text" id="email" name="email" required><br>
-                        <label for="phone-number">Phone Number:</label><br>
-                        <input type="text" id="phone-number" name="phone-number" required><br>
+                    <form id="join-form" method="POST" action="https://formdump.codeinstitute.net/" target="_blank" aria-label="join the team form">
+                        <label for="first-name" aria-label="first name">First Name</label><br>
+                        <input type="text" id="first-name" name="first-name" required aria-label="first name field"><br>
+                        <label for="last-name" aria-label="last name">Last Name</label><br>
+                        <input type="text" id="last-name" name="last-name" required aria-label="last name field"><br>
+                        <label for="email" aria-label="email">Email</label><br>
+                        <input type="text" id="email" name="email" required aria-label="email field"><br>
+                        <label for="phone-number" aria-label="phone number">Phone Number</label><br>
+                        <input type="text" id="phone-number" name="phone-number" required aria-label="phone number field"><br>
                         <br>
-                        <p> Self-assessed skill level</p>
-                        <input type="radio" id="beginner" name="skill-level" value="beginner" required>
+                        <p aria-label="self assessed skill level"> Self-assessed skill level</p>
+                        <input type="radio" id="beginner" name="skill-level" value="beginner" requiredaria-label="beginner option">
                         <label for="beginner">Beginner</label><br>
-                        <input type="radio" id="intermediate" name="skill-level" value="intermediate">
+                        <input type="radio" id="intermediate" name="skill-level" value="intermediate" aria-label="intermediate option">
                         <label for="intermediate">Intermediate</label><br>
-                        <input type="radio" id="professional" name="skill-level" value="professional">
+                        <input type="radio" id="professional" name="skill-level" value="professional" aria-label="professional option">
                         <label for="professional">Professional</label><br><br>
-                        <label for="street-address">Street Address:</label><br>
-                        <input type="text" id="street-address" name="street-address" required><br>
-                        <label for="post-code">Post Code:</label><br>
-                        <input type="text" id="post-code" name="post-code" required><br>
-                        <label for="notes">Anything else you'd like to mention?:</label><br>
-                        <input type="text" id="notes" name="notes"><br>
-                        <input type="submit" value="Submit"><br><br>
+                        <label for="street-address" aria-label="streed address">Street Address</label><br>
+                        <input type="text" id="street-address" name="street-address" required aria-label="street address field"><br>
+                        <label for="post-code" aria-label="post code">Post Code</label><br>
+                        <input type="text" id="post-code" name="post-code" required aria-label="post code field"><br>
+                        <label for="notes"aria-label="anything else?">Anything else you'd like to mention?</label><br>
+                        <input type="text" id="notes" name="notes"aria-label="input notes"><br>
+                        <input type="submit" value="Submit" aria-label="submit button"><br><br>
                     </form>
                 </div>
             </section>
     </section>
 
     <footer id="section-connect">
-        <ul class="social-networks">
+        <ul class="social-networks" aria-label="social media links">
             <li>
                 <a href="https://www.facebook.com/" target=_blank rel="noopener"
                 aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
