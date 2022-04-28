@@ -107,7 +107,7 @@ Lighthouse report was also generated.
 ***
 
 ## Unfixed Bugs
-When navigating through the different sections via the navigation ba, the headers of each section are cut off. Ideally the headers would be positioned directly underneath the navigation bar. 
+When navigating through the different sections via the navigation bar, the headers of each section are cut off. Ideally the headers would be positioned directly underneath the navigation bar. 
 This bug wasn't resolved as editing the margins and paddings would affect the rest of the page leaving spaces undesireably. 
 
 ***
