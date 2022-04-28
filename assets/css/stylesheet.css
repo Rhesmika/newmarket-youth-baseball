@@ -381,8 +381,6 @@ footer {
 /* For small  screens size from 800px wide and down */
 
 @media screen and (max-width: 800px) {
-
-    
     #menu{
         font-size: 10px;
         clear: left;
@@ -393,7 +391,6 @@ footer {
     #hero-outer{
         height: 250px;
     }
-    
     #hero-image{
         padding-top: 50px;
         height:250px;
@@ -413,7 +410,6 @@ footer {
         font-size: 25px;
         height: 50px;
     }
-
     .about-the-club{
         height: 1000px;
     }
@@ -429,7 +425,6 @@ footer {
     #kit-image{
         height:500px;
     }
-
     #team-info{
         padding:30px;
     }
@@ -447,7 +442,6 @@ footer {
         text-align: center;
         top:10px;
         position: relative;
- 
     }
     #form-section-outer{
         height: 700px;
@@ -458,4 +452,5 @@ footer {
         top:80px;
         left: 7.5%;
     }
+}
 }
