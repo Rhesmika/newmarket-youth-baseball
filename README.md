@@ -40,29 +40,37 @@ The navigation bar sticks to the top of the page no matter how far down you scro
 The navigations bar includes links to the top of the page, About the Club, Baseball Rules,  Map, Join the team and Connect. 
 The navigation is crutial for the user to jump to different information quickly without having to scroll backwards and forwards. 
 
+![navigation-bar](/assets/images/readme/nyb-header-navigation.png)
+
 ### Hero-image
 The image is captivating and clear. It directly speaks that the website is for a youth baseball team. 
 The cover text placed on top of the image educates the user of the primary aim for the team. Youth players, at all skill levels are welcome. 
+![hero-image](/assets/images/readme/nyb-hero-cover-image.png)
 
 ### About the Club
 This section allows users to learn more about the club. It includes expectations of practice and game times, as well as kit requirements and season fees. 
 There is an internal link to the map further down in the page as well as an external link to paypal (opening in a new tab) to allow the user to make payment there and then. 
 This section of the page is designed to educate the user directly about club information.
 
+![about-club-2](/assets/images/readme/nyb-about-us-2.png)
+
 ### Baseball Rules
 The club is for all skill levels. It became apparent that there needed to be recourses available for new members who may need to understnad the rules for the first time, or for participating members to have a refresher. 
 The video plays within the page at the users control. 
 This is a very educational section of the website.
+![baseball-rules](/assets/images/readme/nyb-baseball-rules.png)
 
 ### Where to Find Us
 As this is a local team, it was important for the user to understand the location of where the team practices and plays matches. The google map has been embeded so the user can control the map internally to the website without having to search the location up on an external wesbite/app.
+![map](/assets/images/readme/nyb-map.png)
 
 ### Join the Team
-
 The form created is designed to gain information from the user of new team members. The basic contact information is requested and teh address information was relavant as this is a local team. The form was designed to be inviting and clear of the information required to join the team. 
+![join-team-form](/assets/images/readme/nyb-join-team.png)
 
 ### Connect
 The social media links are a direct way that the user can be linked externally to the teams social media channels and youtube page. 
+![connect-footer](/assets/images/readme/nyb-connect.png)
 
 
 ## Testing
