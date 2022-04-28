@@ -94,7 +94,7 @@ header{
 
     background-color: rgba(242, 120, 48, .7);
 
-    bottom: 50px;
+    bottom: 200px;
     right: 50px;
 
     position:absolute;
@@ -156,7 +156,7 @@ header{
 }
 
 #kit-image{
-    background: url('../../assets/images/baseball-ball-glove.jpg') no-repeat center center;
+    background: url('../../assets/images/baseball-field.jpg') no-repeat center center;
     height:500px;
     background-size: cover;
 }
