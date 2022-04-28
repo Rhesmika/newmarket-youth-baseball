@@ -72,12 +72,32 @@ The form created is designed to gain information from the user of new team membe
 The social media links are a direct way that the user can be linked externally to the teams social media channels and youtube page. 
 ![connect-footer](/assets/images/readme/nyb-connect.png)
 
+### Future features
+As the page develops, a section on the seasons matches could be implimented. This would inform the user of matches to be /have haveeb played throughout the teams, when they are being played, what team they are playing against. It could also include a column of who is the winner of the game. 
+***
 
 ## Testing
+The following features have been tested on both desktop and mobile. 
+-navigation links through the page 
+-internal external links to paypal
+-internal link to map
+-google maps
+-youtube
+-form and requirments
+-external social media links
 
+The sizings of different sections of the page changes as the screen size is decreased and increased. This is to ensure user readability as well as the asthetic of the page. The site has been tested on different mobile and tablet forms within the inspection section of the page. 
+
+The website has also been tested on safari and chrome. 
+
+Within the testing phase, changes has to be made to the navigation height when the screen is smaller. The hero image text box also needed re-positioning after initial and secondary tests. The box was oriignally overlapping different sections of the page and was clearly int he incorrect place.  This as since been amended and now is in the correct placement on all screen widths.
 
 ## Validator Testing
-
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+***
 
 ## Depolyment
 
