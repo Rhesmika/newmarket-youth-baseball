@@ -99,8 +99,19 @@ Within the testing phase, changes has to be made to the navigation height when t
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 ***
 
-## Depolyment
+## Unfixed Bugs
+When navigating through the different sections via the navigation ba, the headers of each section are cut off. Ideally the headers would be positioned directly underneath the navigation bar. 
+This bug wasn't resolved as editing the margins and paddings would affect the rest of the page leaving spaces undesireably. 
 
+***
+### Deployment
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - Navigate to the pages section on the left hand side
+  - See the drop-down menu, select the Main Branch
+  - Once the main branch has been selected, the page was automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://rhesmika.github.io/newmarket-youth-baseball/#section-about-the-club
 
 ## Credits
 
