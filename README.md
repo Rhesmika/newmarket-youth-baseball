@@ -97,6 +97,11 @@ Within the testing phase, changes has to be made to the navigation height when t
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+Lighthouse report was also generated.
+![lighthoouse-report](/assets/images/readme/lighthouse-testing-report.png)
+
+
 ***
 
 ## Unfixed Bugs
@@ -114,4 +119,26 @@ This bug wasn't resolved as editing the margins and paddings would affect the re
 The live link can be found here - https://rhesmika.github.io/newmarket-youth-baseball/#section-about-the-club
 
 ## Credits
+
+
+### Images
+ | Link | Items |
+ | ----------- |----------- | 
+https://www.rawpixel.com/ | baseball-ball-glove
+https://www.rawpixel.com/ | baseball-game
+https://www.rawpixel.com/ | baseball-hero-pitching
+https://unsplash.com/ | baseball-field
+https://unsplash.com/ | baseball-players
+
+
+### Colors
+https://color.adobe.com/search?q=sport 
+The colors used to style the page in CSS, were taken from adobe color. 
+
+### Video
+https://www.youtube.com/watch?v=57mc7Df7Arw
+
+### HTML
+Code from Love-Running project for the social media icons was used 
+https://github.com/Rhesmika/love-running/blob/main/index.html
 
